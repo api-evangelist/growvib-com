@@ -1,4 +1,4 @@
-# growvib-com
+# GrowVib
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-growvib-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://growvib.com/
+GrowVib provides a social media marketing (SMM) panel that lets users purchase services such as Instagram followers, TikTok views, YouTube subscribers, and Telegram post promotion. The platform offers bulk ordering, drip‑feed delivery, live tracking, and integrates with a Telegram bot and MCP client for automated quoting and ordering. It supports over 55 platforms with pricing per thousand engagements and includes tiered discounts. The service is accessible via a web dashboard and a public API without requiring traditional API keys.
+
+**Areas:** SMM · Social Media · Marketing · Automation · Telegram · API
+
+## GrowVib on APIs.io
+
+Everything profiled for GrowVib is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/growvib-com/](https://apis.io/providers/growvib-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [GrowVib Agent payments API](https://apis.io/apis/growvib-com/growvib-com-agent-payments-api/) — The Agent payments API from GrowVib — 9 operation(s) for agent payments.
+- [GrowVib Catalog API](https://apis.io/apis/growvib-com/growvib-com-catalog-api/) — Anonymous catalog reads. No credentials, per-IP rate limited.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [GrowVib Agentic Access](https://apis.io/agentic-access/growvib-com/growvib-com-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [AgentOrder](https://apis.io/schemas/growvib-com/growvib-com-agent-order/)
+- [Service](https://apis.io/schemas/growvib-com/growvib-com-service/)
+- [ServiceDetail](https://apis.io/schemas/growvib-com/growvib-com-service-detail/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Growvib Com Context](https://apis.io/jsonld/growvib-com/growvib-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [GrowVib API Rules](https://apis.io/rules/growvib-com/growvib-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [GrowVib Authentication](https://apis.io/security/growvib-com/growvib-com-authentication/)
+- [GrowVib Domain Security](https://apis.io/security/growvib-com/growvib-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://growvib.com/)
+- [API reference](https://growvib.com/llms.txt)
+- [Sign up](https://app.growvib.com/signup)
+- [Changelog](https://growvib.com/changelog)
+- [Blog](https://growvib.com/blog)
+- [Terms of service](https://growvib.com/terms)
+- [Privacy policy](https://growvib.com/privacy)
+- [GitHub](https://github.com/growvib)
+- [Status](https://growvib.com/status)
+
+## API Evangelist rating
+
+**Kin Score 48.6** — developing · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 55.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 34.2 |
+
+**Agent readiness 69.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/growvib-com/](https://apis.io/providers/growvib-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GrowVib: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/growvib-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
